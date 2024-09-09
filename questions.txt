@@ -1,0 +1,1 @@
+=> at mobile size it was not shrinking when the property was width and now i changed to max-width now it shrinking in mobile size why??

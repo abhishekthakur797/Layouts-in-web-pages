@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #ebd6fb;
+}
+.container {
+    max-width: 1200px;
+    height: 800px;
+    margin: 80px auto;
+    padding: 20px;
+}
+.box_container {
+    display: flex;
+}
+/* 
+You can assign multiple classes to a single div. 
+Common styles will apply to all div's with those classes, 
+while unique styles from each class will only apply to the div's where they are used. */
+
+.box {
+    width: 100%;
+    height: 200px;
+}
+.box1 {
+    background-color: #e7caff;
+}
+.box2 {
+    background-color: #e3a7ff;
+}
+.box3 {
+    background-color: #7e45a8;
+}
+.box4 {
+    background-color: #ab47fb;
+}
+.box5 {
+    background-color: #9e38ef;
+}
+.box6 {
+    background-color: #7629b2;
+}
+.box7 {
+    background-color: #340c53;
+}
+.box8 {
+    background-color: #560e8d;
+}
+
+/* Media Query */
+@media screen and (max-width: 768px) {
+    .container {
+        margin: 40px 20px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .container {
+        margin: 24px 10px;
+    }
+}
